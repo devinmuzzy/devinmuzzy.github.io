@@ -1,0 +1,48 @@
+
+<html>
+  <head>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type='text/javascript' src="timelineChart.js"></script>
+    <style>
+        h5 {
+          font-size: 60px;
+          color: black;
+        }
+    
+
+    </style>
+  </head>
+
+  <body>
+      <div>
+                    <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">About</a>
+          <a href="crashChart.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Timeline Chart</a>
+          <a href="crashChartPercent.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="false">Histograms</a>
+
+
+          </div>
+      
+      <br>
+      <h5 class="text-center"> Timeline Chart:</h5>
+      <br>
+
+      <div id='chart_div' style='width: 1000px; height: 800px;'></div>
+      
+      <br>
+      <br>
+      
+      <p class="text-center">Every round is represented by 0.0001 seconds.</p>
+      <br>
+      <p class="text-center">*The time begins at 4:00:00 on December 31, 1969 and continues until 4:00:10</p>
+      <br>
+      <br>
+  </body>
+</html>
